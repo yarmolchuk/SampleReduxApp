@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		411BCC462042A37500B94C2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411BCC452042A37500B94C2F /* AppDelegate.swift */; };
+		411BCC482042A37500B94C2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411BCC472042A37500B94C2F /* ViewController.swift */; };
+		411BCC4B2042A37500B94C2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 411BCC492042A37500B94C2F /* Main.storyboard */; };
+		411BCC4D2042A37500B94C2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 411BCC4C2042A37500B94C2F /* Assets.xcassets */; };
+		411BCC502042A37500B94C2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 411BCC4E2042A37500B94C2F /* LaunchScreen.storyboard */; };
+		411BCC5B2042A37500B94C2F /* MotoGPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411BCC5A2042A37500B94C2F /* MotoGPTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		411BCC572042A37500B94C2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 411BCC3A2042A37500B94C2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 411BCC412042A37500B94C2F;
+			remoteInfo = MotoGP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		411BCC422042A37500B94C2F /* MotoGP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MotoGP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		411BCC452042A37500B94C2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		411BCC472042A37500B94C2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		411BCC4A2042A37500B94C2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		411BCC4C2042A37500B94C2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		411BCC4F2042A37500B94C2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		411BCC512042A37500B94C2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		411BCC562042A37500B94C2F /* MotoGPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MotoGPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		411BCC5A2042A37500B94C2F /* MotoGPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotoGPTests.swift; sourceTree = "<group>"; };
+		411BCC5C2042A37500B94C2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		411BCC3F2042A37500B94C2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		411BCC532042A37500B94C2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		411BCC392042A37500B94C2F = {
+			isa = PBXGroup;
+			children = (
+				411BCC442042A37500B94C2F /* MotoGP */,
+				411BCC592042A37500B94C2F /* MotoGPTests */,
+				411BCC432042A37500B94C2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		411BCC432042A37500B94C2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				411BCC422042A37500B94C2F /* MotoGP.app */,
+				411BCC562042A37500B94C2F /* MotoGPTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		411BCC442042A37500B94C2F /* MotoGP */ = {
+			isa = PBXGroup;
+			children = (
+				411BCC452042A37500B94C2F /* AppDelegate.swift */,
+				411BCC472042A37500B94C2F /* ViewController.swift */,
+				411BCC492042A37500B94C2F /* Main.storyboard */,
+				411BCC4C2042A37500B94C2F /* Assets.xcassets */,
+				411BCC4E2042A37500B94C2F /* LaunchScreen.storyboard */,
+				411BCC512042A37500B94C2F /* Info.plist */,
+			);
+			path = MotoGP;
+			sourceTree = "<group>";
+		};
+		411BCC592042A37500B94C2F /* MotoGPTests */ = {
+			isa = PBXGroup;
+			children = (
+				411BCC5A2042A37500B94C2F /* MotoGPTests.swift */,
+				411BCC5C2042A37500B94C2F /* Info.plist */,
+			);
+			path = MotoGPTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		411BCC412042A37500B94C2F /* MotoGP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 411BCC5F2042A37500B94C2F /* Build configuration list for PBXNativeTarget "MotoGP" */;
+			buildPhases = (
+				411BCC3E2042A37500B94C2F /* Sources */,
+				411BCC3F2042A37500B94C2F /* Frameworks */,
+				411BCC402042A37500B94C2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MotoGP;
+			productName = MotoGP;
+			productReference = 411BCC422042A37500B94C2F /* MotoGP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		411BCC552042A37500B94C2F /* MotoGPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 411BCC622042A37500B94C2F /* Build configuration list for PBXNativeTarget "MotoGPTests" */;
+			buildPhases = (
+				411BCC522042A37500B94C2F /* Sources */,
+				411BCC532042A37500B94C2F /* Frameworks */,
+				411BCC542042A37500B94C2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				411BCC582042A37500B94C2F /* PBXTargetDependency */,
+			);
+			name = MotoGPTests;
+			productName = MotoGPTests;
+			productReference = 411BCC562042A37500B94C2F /* MotoGPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		411BCC3A2042A37500B94C2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Dima Yarmolchuk";
+				TargetAttributes = {
+					411BCC412042A37500B94C2F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					411BCC552042A37500B94C2F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 411BCC412042A37500B94C2F;
+					};
+				};
+			};
+			buildConfigurationList = 411BCC3D2042A37500B94C2F /* Build configuration list for PBXProject "MotoGP" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 411BCC392042A37500B94C2F;
+			productRefGroup = 411BCC432042A37500B94C2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				411BCC412042A37500B94C2F /* MotoGP */,
+				411BCC552042A37500B94C2F /* MotoGPTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		411BCC402042A37500B94C2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				411BCC502042A37500B94C2F /* LaunchScreen.storyboard in Resources */,
+				411BCC4D2042A37500B94C2F /* Assets.xcassets in Resources */,
+				411BCC4B2042A37500B94C2F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		411BCC542042A37500B94C2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		411BCC3E2042A37500B94C2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				411BCC482042A37500B94C2F /* ViewController.swift in Sources */,
+				411BCC462042A37500B94C2F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		411BCC522042A37500B94C2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				411BCC5B2042A37500B94C2F /* MotoGPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		411BCC582042A37500B94C2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 411BCC412042A37500B94C2F /* MotoGP */;
+			targetProxy = 411BCC572042A37500B94C2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		411BCC492042A37500B94C2F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				411BCC4A2042A37500B94C2F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		411BCC4E2042A37500B94C2F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				411BCC4F2042A37500B94C2F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		411BCC5D2042A37500B94C2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		411BCC5E2042A37500B94C2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		411BCC602042A37500B94C2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MotoGP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yarmolchuk.MotoGP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		411BCC612042A37500B94C2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MotoGP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yarmolchuk.MotoGP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		411BCC632042A37500B94C2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MotoGPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yarmolchuk.MotoGPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MotoGP.app/MotoGP";
+			};
+			name = Debug;
+		};
+		411BCC642042A37500B94C2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MotoGPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yarmolchuk.MotoGPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MotoGP.app/MotoGP";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		411BCC3D2042A37500B94C2F /* Build configuration list for PBXProject "MotoGP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				411BCC5D2042A37500B94C2F /* Debug */,
+				411BCC5E2042A37500B94C2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		411BCC5F2042A37500B94C2F /* Build configuration list for PBXNativeTarget "MotoGP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				411BCC602042A37500B94C2F /* Debug */,
+				411BCC612042A37500B94C2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		411BCC622042A37500B94C2F /* Build configuration list for PBXNativeTarget "MotoGPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				411BCC632042A37500B94C2F /* Debug */,
+				411BCC642042A37500B94C2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 411BCC3A2042A37500B94C2F /* Project object */;
+}
